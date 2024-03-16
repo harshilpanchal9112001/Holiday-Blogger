@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination Page</title>
+
+    <link rel="stylesheet" href="css/Contact_Style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Play:wght@700&family=Raleway&family=Roboto+Condensed&family=Syncopate&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <script src="jquery-3.5.1.js"></script>
+
+</head>
+
+<body>
+
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+
+    <header class="navbar">
+        <div class="logo">
+            <img src="images/2D logo.png" alt="Image is nor available" height="200" width="280">
+        </div>
+        <div class="searchbox">
+            <input id="search" type="text" placeholder="Search the Blog">
+            <img src="images/Search.png" alt="" srcset="" height="35" width="35">
+        </div>
+        <div class=navicon>
+            <ul class="item">
+                <li><a class="elements" href="Home.html">Home</a></li>
+                <li><a class="elements" href="Destinations.html">Destinations</a></li>
+                <li><a class="Active" href="Contact.html">Contact</a></li>
+                <li><a class="elements" href="#">Photos</a></li>
+                <li><a class="elements" href="About_us.html">About</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <!------------------------------------------------------------------------------------------------->
+
+    <section class="contact" id="contact">
+		<h2 class="text-center"><span>C</span>ontact <span>U</span>s</h2>
+		<form action ="#" name="myForm" onsubmit="return validateForm()" method="post">
+			<div class="formdesign" id="name">
+				<input type="text" name="fname" placeholder="Enter Your Name" required><br>
+				<b><span class="formerror"></span></b>
+			</div>
+			<div class="formdesign" id="email">
+				<input type="email" name="femail" placeholder="Enter Your Email" required><br>
+				<b><span class="formerror"></span></b>
+			</div>
+			<div class="formdesign" id="phone">
+				<input type="number" name="fphone" placeholder="Enter Your Phone Number" required><br>
+				<b><span class="formerror"></span></b>
+			</div>
+			<div class="formdesign" id="message">
+				<textarea type="text" name="fmessage" cols="40" rows="10" placeholder="Enter Your Message Here ..." required></textarea><br>
+				<b><span class="formerror" ></span></b>
+			</div>
+			<div class="formdesign">
+				<button type="submit" class="but">Send</button>
+			</div>
+		</form>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">about me</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">Plan a solo trip</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Top Destinations</h4>
+                    <ul>
+                        <li><a href="#">India Travel Guide</a></li>
+                        <li><a href="#">Australia Travel Guide</a></li>
+                        <li><a href="#">New Zealand Guide</a></li>
+                        <li><a href="#">Maldives Travel Guide</a></li>
+                        <li><a href="#">Dubai Travel Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Travel Tips</h4>
+                    <ul>
+                        <li><a href="#">Travel Blog</a></li>
+                        <li><a href="#">Solo Travel</a></li>
+                        <li><a href="#">Make a Packing List</a></li>
+                        <li><a href="#">Plan ahead</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Stay Connected</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="jquery.js"></script>
+
+</html>
